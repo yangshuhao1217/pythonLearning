@@ -1,2 +1,2 @@
 # pythonLearning
-Python learning: Automate the Boring Stuff with Python, 2-edition
+Python learning, I want to try!
