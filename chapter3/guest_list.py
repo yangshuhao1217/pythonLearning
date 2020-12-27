@@ -17,3 +17,5 @@ print(f"{popped_guest5}, I am very sorry, that I can't invite you.")
 del guest_list[0]
 del guest_list[0]
 print(guest_list)
+
+print("I have {len(guest_list))} guest today}.")
