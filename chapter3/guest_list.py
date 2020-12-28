@@ -19,3 +19,4 @@ del guest_list[0]
 print(guest_list)
 
 print("I have {len(guest_list))} guest today}.")
+
