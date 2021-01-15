@@ -1,13 +1,15 @@
 prompt = "\nEnter your age, I'll tell you the cost of your movie ticket."
 prompt += "\nEnter 'quit' to end the program. "
 
-message = ""
-while message != 'quit':
-    message = input(prompt)
+while True:
+    age = input(prompt)
+    if age == 'quit':
+        break
+    age = int(age)
 
-    if int(message) < 3:
-        print(0)
-    elif int(message) < 12:
-        print(10)
+    if age < 3:
+        print("Your ticket is free.")
+    elif age <= 12:
+        print("Your ticket is $10.")
     else:
-        print(15)
+        print("Your ticket is %15.")
