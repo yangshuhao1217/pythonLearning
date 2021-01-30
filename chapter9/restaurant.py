@@ -23,3 +23,14 @@ restaurant = Restaurant('Dragon', 'chinese')
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 
+restaurant_0 = Restaurant('Alegri', 'italian')
+restaurant_0.describe_restaurant()
+restaurant_0.open_restaurant()
+
+restaurant_1 = Restaurant('Bonjur', 'french')
+restaurant_1.describe_restaurant()
+restaurant_1.open_restaurant()
+
+restaurant_2 = Restaurant('Hola', 'spain')
+restaurant_2.describe_restaurant()
+restaurant_2.open_restaurant()
