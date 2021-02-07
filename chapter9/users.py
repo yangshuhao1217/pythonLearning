@@ -8,6 +8,7 @@ class User:
         self.last_name = last_name
         self.location = location
         self.hobbi = hobbi
+        self.login_attempt = 0
 
 
     def describle_user(self):
@@ -21,14 +22,23 @@ class User:
         """Greeting users."""
         print(f"Hi {self.first_name}, it's nice to meet you here.")
 
+
+    def increment_login_attempts(self):
+        """Increment the value of login_attempt by 1."""
+        self.login_attempt += 1
+        print(f"{self.first_name} has tried {self.login_attempt} times.")
+
+    
+    def reset_login_attempts(self):
+        """Reset the value of attempts to 0."""
+        self.login_attempt = 0
+
 user = User('Eric', 'Henderson', 'Liverpool', 'football')
 user.describle_user()
 user.greet_user()
+user.increment_login_attempts()
+user.increment_login_attempts()
+user.increment_login_attempts()
 
-
-user_0 = User('Henry', 'Johonson', 'manchester', 'baseball')
-print(f"Hi {user_0.first_name}, it's good to see you here.")
-user_0.describle_user()
-
-user_1 = User('Shulin', 'Yang', 'Shenyang', 'opera')
-user_1.describle_user()
+user.reset_login_attempts()
+print(f"Login attempts: {str(user.login_attempt)}")
