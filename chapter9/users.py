@@ -33,12 +33,22 @@ class User:
         """Reset the value of attempts to 0."""
         self.login_attempt = 0
 
-user = User('Eric', 'Henderson', 'Liverpool', 'football')
-user.describle_user()
-user.greet_user()
-user.increment_login_attempts()
-user.increment_login_attempts()
-user.increment_login_attempts()
 
-user.reset_login_attempts()
-print(f"Login attempts: {str(user.login_attempt)}")
+class Admin(User):
+    """Privileges of amdin."""
+    def __init__(self, first_name, last_name, location, hobbi):
+        """Initialize attributes of the parent class."""
+        super().__init__(first_name, last_name, location, hobbi)
+        self.privileges = ['can add post', 'can delete post', 'can ban user']
+
+    def show_privileges(self):
+        """Show privileges of admin."""
+        print("\nPrivileges of admin are:")
+        for privilege in self.privileges:
+            print(f"- {privilege}")
+
+
+admin = Admin('Eric', 'Henderson', 'Liverpool', 'programming')
+
+admin.describle_user()
+admin.show_privileges()
