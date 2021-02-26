@@ -34,7 +34,7 @@ class Restaurant:
         """Increment the number of customers who've been served."""
         self.number_served += numbers
 
-class IceCreamStand(Reataurant):
+class IceCreamStand(Restaurant):
     """A restaurant where sells icecream."""
     def __init__(self, restaurant_name, cuisine_type='ice_cream'):
         """Initialize attributes of the parent class."""
@@ -44,7 +44,7 @@ class IceCreamStand(Reataurant):
     def display_flavors(self):
         """Dispaly flavors of the restaurant."""
         print("\nWe have the following available:")
-        for favor in self.flavors:
+        for flavor in self.flavors:
             print(f"- {flavor.title()}")
 
 big_one = IceCreamStand('The Big one')
