@@ -28,17 +28,3 @@ class User():
     def reset_login_attempts(self):
         """Reset login_attempts to 0."""
         self.login_attempts = 0
-
-eric = User('eric', 'matthes', 'e_matthes', 'e_matthes@example.com', 'alaska')
-eric.describe_user()
-eric.greet_user()
-
-print("\nMaking 3 login attempts...")
-eric.increment_login_attempts()
-eric.increment_login_attempts()
-eric.increment_login_attempts()
-print("  Login attempts: " + str(eric.login_attempts))
-
-print("Resetting login attempts...")
-eric.reset_login_attempts()
-print("  Login attempts: " + str(eric.login_attempts))
