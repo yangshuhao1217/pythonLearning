@@ -1,5 +1,5 @@
 try:
-    x = input("GIve me a number: ")
+    x = input("Give me a number: ")
     x = int(x)
 
 
