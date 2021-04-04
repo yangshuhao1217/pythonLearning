@@ -13,4 +13,4 @@ def count_common_words(filename, word):
         print(msg)
 
 filename = 'sherlock_holmes.txt'
-count_common_words(filename, 'the')
+count_common_words(filename, 'the ')
