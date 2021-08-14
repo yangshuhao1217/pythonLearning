@@ -14,7 +14,7 @@ class Entry(models.Model):
     """Post"""
     post = models.ForeignKey(BlogPost, on_delete=models.CASCADE)
     text = models.TextField()
-    dated_added = models.DateTimeField(auto_now_add=True)
+    date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name_plural = 'entries'
