@@ -2,13 +2,13 @@ from django.db import models
 
 class BlogPost(models.Model):
     """A BlogPost the user is posting on Blog."""
-    title = models.CharField(max_length=100)
-    date_added = models.DateTimeField(auto_now=True)
+    text = models.CharField(max_length=100)
+    date_added = models.DateTimeField(auto_now_add=True)
 
 
     def __str__(self):
         """Return a string representaation of the model."""
-        return self.title
+        return self.text
 
 class Entry(models.Model):
     """Post"""
