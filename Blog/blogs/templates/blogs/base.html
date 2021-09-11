@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 border">
 
-      <a class="navbar-brand" href="{% url 'learning_logs:index' %}">
+      <a class="navbar-brand" href="{% url 'blogs:index' %}">
         Learning Log
       </a>
 
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'learning_logs:topics' %}">Topics</a>
+            <a class="nav-link" href="{% url 'blogs:posts' %}">Posts</a>
           </li>
         </ul>
         <ul class="navbr-nav ml_auto">
@@ -55,7 +55,7 @@
         {% block page_header %}{% endblock page_header %}
       </div>
       <div>
-        {% block content %}{% endblcok content %}
+        {% block content %}{% endblock content %}
       </div>
     </main>
   </body>
