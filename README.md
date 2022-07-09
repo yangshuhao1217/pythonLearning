@@ -1,2 +1,2 @@
 # pythonLearning
-I am learning programming, I tried Swift, but it was difficult to me. So I decided learn Python. I am leaning Python 1 year. It is interesting to me. Now I am learning basics, I am planning to write something really cool in Python. Now I am reading Python Crash Course, and doing practice with it. It is a very good book, and I push every code, that I write to Github to share with you.
+My name is Yang Shuhao, you can call me Shuhao. Now I'm learning programming. Python is a great language. 

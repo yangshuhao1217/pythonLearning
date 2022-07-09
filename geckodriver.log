@@ -1,0 +1,12 @@
+1657200652170	geckodriver	INFO	Listening on 127.0.0.1:10633
+1657200655229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10634" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yangs\\AppData\\Local\\Temp\\rust_mozprofilen2HGe6"
+1657200655457	Marionette	INFO	Marionette enabled
+1657200655461	Marionette	INFO	Listening on port 10654
+WebDriver BiDi listening on ws://localhost:10634
+Read port: 10654
+1657200655651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yangs\\AppData\\Local\\Temp\\rust_mozprofilen2HGe6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10634/devtools/browser/9e7d646a-1b5c-452c-8623-26b638c4b051
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1657200986948	Marionette	INFO	Stopped listening on port 10654
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
