@@ -37,3 +37,8 @@ __pycache__
 
 # Log
 *.log
+
+/boringStuff/chapter14/credentials-sheets.json
+
+# pickle
+*.pickle
