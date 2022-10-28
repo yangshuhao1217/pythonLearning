@@ -6,6 +6,7 @@
 .vscode/
 .vs/
 .ipynb_checkpoints/
+.fleet/
 
 # Icon must end with two \r
 Icon
